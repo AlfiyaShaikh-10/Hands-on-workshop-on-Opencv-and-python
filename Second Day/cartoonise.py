@@ -8,7 +8,7 @@ def select_image():
     global panelA,panelB
 
     path= filedialog.askopenfilename()
-    
+    #1)
     if len(path)>0:
         #image code with opencv
         #read
